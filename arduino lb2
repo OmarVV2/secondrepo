@@ -1,0 +1,16 @@
+// the setup routine runs once when you press reset:
+/ the setup routine runs once when you press reset: void setup() i
+/ Initialize serial communication at 9600 bits per second:
+Serial. begin (9608);
+// the loop routine runs over and over again forever:
+void loop() {
+/ read the input on analog pin 0: int knobValue - anaLogReag(A0);
+int LED = (2);
+if(knobValue > 400)
+digitalwrite (LED, HIGH);
+else
+digitalwrite(LED, LOW):
+// print out the value you read:
+Serial.printIn(knobValue);
+
+}
